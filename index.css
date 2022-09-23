@@ -1,0 +1,318 @@
+@font-face{
+    font-family:fonte1;
+    src:url(fontes/kidstoy.otf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    
+}
+
+#topo{
+    background-color:#BC00FF;
+    height:100%;
+    width:100%;
+}
+#topo img{
+    margin:0px auto;
+    display:block;
+    height:300px;
+    width:300px;
+}
+
+
+nav{
+    background-color: #FC5FFF;
+    height:100%;
+    
+}
+#cupcakecorpo{
+    text-align: center;
+    border:2px;
+    padding:1px;
+    margin:20px;
+    width:500px;
+    font-size:25px;
+    
+}
+#imgcupcake{
+    width:400px;
+    box-shadow: 8px 8px 10px black;
+    margin-left:50px;
+}
+#titulocupcake{
+    font-family: fonte1;
+    border:20px;
+    margin:20px;
+    font-size:50px;
+    margin-left:150px;
+}
+#menu{
+    width:100%;
+    height:100%;
+}
+#menu ul{
+    display:flex;
+    list-style:none;
+    justify-content:space-around;
+    align-items:center;
+    height:170px;
+    font-size:20px;
+    text-transform:uppercase;
+}
+#menu a{
+    color:black;
+    text-decoration:none;
+    font-size:30px;
+    
+}
+#menu a:hover{
+    border-bottom:3px solid purple;
+}
+#titulobrownie{
+    font-family: fonte1;
+    border:20px;
+    margin:20px;
+    font-size:50px;
+    width: 160px;
+    margin-left:1500px;
+    
+
+
+}
+#browniecorpo{
+    float: right;
+    border:2px;
+    padding:1px;
+    margin:20px;
+    width:500px;
+    font-size:25px;
+    
+}
+#imgbrownie{
+    height:auto;
+    width:400px;
+    margin:20px;
+    float: right;
+    background-color: red;
+    box-shadow: -8px 8px 10px black;
+    margin-right:55px; 
+}
+
+#titulobrigadeiro{
+    font-family: fonte1;
+    border:20px;
+    margin:20px;
+    font-size:50px;
+    width: 160px;
+    margin-left:150px;
+}
+#brigadeirocorpo{
+    text-align:center;
+    border:2px;
+    padding:1px;
+    margin:20px;
+    width:500px;
+    font-size:25px;
+}
+#imgbrigadeiro{
+    width:400px;
+    margin:20px;
+    box-shadow: 8px 8px 10px black;
+    margin-left:55px; 
+}
+#botao1{
+    font-size: 40px;
+    margin: 0;
+    margin-left:140px;
+    color:black;
+    text-decoration:none;
+    font-size:30px;
+    
+    
+    
+}
+
+
+#botao2{
+    font-size: 40px;
+    margin-left:1540px;
+    color:black;
+    text-decoration:none;
+    font-size:30px;
+    
+}
+#botao3{
+    font-size: 40px;
+    margin: 0;
+    margin-left:150px;
+    color:black;
+    text-decoration:none;
+    font-size:30px;
+    
+}
+#rodape{
+    bottom: 0;
+    background-color:#BC00FF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+    
+}
+#contatorodape{
+    font-size: 30px;
+}
+#pessoacupcake{
+    width:700px;
+    float:right;
+    margin-right:150px;
+    box-shadow: -8px 8px 10px black;
+}
+#sobrenos{
+    font-family: fonte1;
+    text-align:center;
+    margin:0;
+    font-size:50px;
+}
+#sobrenostexto{
+    text-align: center;
+    margin:0;
+    font-size:30px;
+}
+#brigadeiro3{
+    width:800px;
+    float:right;
+    margin-right:200px;
+    box-shadow: -8px 8px 10px black;
+}
+#pessoabrownie{
+    width:900px;
+    float:left;
+    margin-left:100px;
+    box-shadow: 8px 8px 10px black;
+}
+#bodyform{
+    background-color:#BC00FF;
+}
+#imgform{
+    margin-left:670px;
+}
+#formulario{
+    text-align: center;
+    width:400px;
+    height:400px;
+    background:#FB5EFF;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left:740px;
+    border-radius:50px;
+    margin-top:20px;
+}
+#form{
+    align-items:center;
+    text-align: center;
+}
+#titulocard{
+    text-align:center;
+    font-family:fonte1;
+    font-size:60px;
+    margin-bottom:200px;
+}
+#h1card{
+    text-align: center;
+    font-size:40px;
+}
+#h1brigadeiro{
+    text-align: center;
+    font-size:40px;
+    margin-top:90px;
+    margin-bottom:90px;
+}
+#brigadeirocard1{
+    width:500px;
+    margin-left:450px;
+    
+}
+#beijinho{
+    width:500px;
+    height:375px;
+    margin-left:20px;
+}
+#cupcakecard{
+    font-size:30px;
+    text-align: center;
+    margin-top:100px;
+}
+#divcard{
+    display: flex;
+}
+#brigcard{
+    margin-left:600px;
+    font-size:30px;
+}
+#beijocard{
+    margin-left:450px;
+    font-size:30px;
+
+}
+#cupcake3{
+    text-align:center;
+    font-size:40px; 
+    margin-top:70px; 
+    margin-bottom:60px; 
+}
+#cupcakecard{
+    width:500px;
+    margin-left:700px;
+}
+
+#cupcard{
+    font-size:30px;
+    margin-left:700px;
+}
+#browniecard{
+    text-align: center;
+    font-size: 40px;
+    margin-top:100px;
+}
+#precocup{
+    text-align: center;
+    font-size: 40px;
+}
+#imgbrowniecard{
+    width:700px;
+    margin-left:600px; 
+}
+#precobrownie{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
